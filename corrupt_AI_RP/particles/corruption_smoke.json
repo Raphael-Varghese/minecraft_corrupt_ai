@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "corrupt_ai:corruption_smoke",
+      "basic_render_parameters": {
+        "material": "particles_alpha",
+        "texture": "textures/particle/particles"
+      }
+    },
+    "components": {
+      "minecraft:emitter_rate_steady": {
+        "spawn_rate": 20,
+        "max_particles": 200
+      },
+      "minecraft:emitter_lifetime_expression": {
+        "activation_expression": 1,
+        "expiration_expression": "math.random(0.5, 1.0)"
+      },
+      "minecraft:emitter_shape_sphere": {
+        "radius": 0.8,
+        "direction": "outwards"
+      },
+      "minecraft:particle_lifetime_expression": {
+        "expiration_expression": "math.random(0.8, 1.6)"
+      },
+      "minecraft:particle_initial_speed": 0.05,
+      "minecraft:particle_appearance_billboard": {
+        "size": [ 0.2, 0.2 ],
+        "facing_camera_mode": "lookat_xyz"
+      }
+    }
+  }
+}
