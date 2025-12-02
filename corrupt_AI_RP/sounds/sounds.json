@@ -1,0 +1,20 @@
+{
+  "corrupt_ai:ai_whisper": {
+    "category": "ambient",
+    "sounds": [
+      { "name": "sounds/ai_whisper.ogg", "volume": 1.0 }
+    ]
+  },
+  "corrupt_ai:ai_rumble": {
+    "category": "ambient",
+    "sounds": [
+      { "name": "sounds/ai_rumble.ogg", "volume": 0.9 }
+    ]
+  },
+  "corrupt_ai:ai_glitch": {
+    "category": "ambient",
+    "sounds": [
+      { "name": "sounds/ai_glitch.ogg", "volume": 1.0, "pitch": 1.2 }
+    ]
+  }
+}
