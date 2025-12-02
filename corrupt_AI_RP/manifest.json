@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Corrupt AI Resource Pack",
+    "description": "Assets for the Corrupt AI: sounds, particles, textures, and icons.",
+    "uuid": "30c2390e-5f1a-4f20-a27e-a2ae46f6cfc1",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "6f947bb2-bdc3-4e8a-89c0-a57a0646dd6b",
+      "version": [1, 0, 0]
+    }
+  ]
+}
