@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Corrupt AI Behavior Pack",
+    "description": "A rogue AI that corrupts the world in escalating phases with rollback and boss events.",
+    "uuid": "765d45f2-d428-4c63-8435-b1270c1448bd",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language":"javascript",
+      "uuid": "06cc93f0-c50b-45d8-8890-c0d430837f88",
+      "version": [1, 0, 0],
+      "entry":"scripts/main."
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.7.0"
+    }
+  ]
+}
