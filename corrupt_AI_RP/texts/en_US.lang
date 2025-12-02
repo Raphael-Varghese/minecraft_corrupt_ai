@@ -1,0 +1,5 @@
+pack.name=Corrupt AI Resource Pack
+pack.description=Assets for the Corrupt AI addon
+sound.corrupt_ai.ai_whisper=AI Whisper
+sound.corrupt_ai.ai_rumble=AI Rumble
+sound.corrupt_ai.ai_glitch=AI Glitch
